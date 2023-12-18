@@ -91,7 +91,7 @@ export default function Demo(props) {
 
 useEffect(() => {
     const getData = async () => {
-        const res = await axios.get(`http://erp.seopage1.net/api/leads`);
+        const res = await axios.get(`https://erp.seopage1.net/api/leads`);
         setData(res.data.data)
     }
     getData();
