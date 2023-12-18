@@ -65,7 +65,7 @@ const Chart = () => {
 
     useEffect(() => {
         const getData = async () => {
-            const res = await axios.get(`http://erp.seopage1.net/api/leads`);
+            const res = await axios.get(`https://erp.seopage1.net/api/leads`);
             console.log(res.data.data);
 
             function chunkArray(array, chunkSize) {
